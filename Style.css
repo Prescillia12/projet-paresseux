@@ -1,0 +1,113 @@
+
+body{
+    background-color: green;
+    font-family: Verdana;
+}
+
+.header{ 
+    background: no-repeat 120px purple url("header.png");
+    height:340px;
+    min-width: 120px;
+    border-color: greenyellow;
+    border-style: solid;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+}
+
+.titre{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    justify-content: center;  
+}
+
+.menu{
+    display: block;
+    width: 10%;
+    background-color: black;
+    color:blanchedalmond;
+}
+
+.button{
+    width: 100px;
+    text-align: center ;
+    padding: 5px;
+    margin: 10px;
+    display:block;
+    border-style: solid;
+    border: 1px white;
+    border-radius: 5px 5px 5px 5px;
+    background-color: green;
+    transition:all 400ms ease-out;
+}
+   
+.button:hover{
+    
+    display:block;
+    box-shadow: 3px 3px 1px greenyellow;
+    border-style:solid;
+    border-color:white;
+    border-radius: 5px 5px 5px 5px;
+    background-color:yellow;
+}
+
+:link{
+    color:black;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 34px;
+    background:linear-gradient(45deg,white 0%,grey 25%,  50%,grey 75%,white 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h2{
+    text-align: center;
+}
+
+main{
+    padding:25px;
+    margin: 25px;
+    border:solid greenyellow;
+    background: repeating-radial-gradient(ellipse farthest-corner at bottom left, #88048b 20%, #a42382 20%, #b706a8 25%);
+    position:relative; 
+}
+
+footer{
+    padding:20px;
+    margin: 20px;
+    border:solid greenyellow;
+    background: repeating-radial-gradient(circle farthest-side at bottom left, #88048b 20%, #a42382 20%, #b706a8 25%);
+    text-align: center;
+}
+
+main> .button{
+    display: block;
+    margin: auto;
+}
+
+img{
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: table;
+}
+
+form{
+    display: table-row;
+}
+
+label,input{
+    display: table-cell;
+    margin-bottom:10px;
+}
+
